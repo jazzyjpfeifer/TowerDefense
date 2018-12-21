@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ca13c0-379c-45e1-8101-ce3db61d7820" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/Projectile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/TowerCannon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GameProject/data/Boot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameProject/data/Boot.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GameProject/data/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameProject/data/Enemy.class" afterDir="false" />
@@ -11,12 +9,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/GameProject/data/Wave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameProject/data/Wave.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GameProject/data/helpers/Artist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameProject/data/helpers/Artist.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GameProject/data/helpers/Clock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameProject/data/helpers/Clock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Boot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Boot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/TileGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/TileGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Wave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Wave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/helpers/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/helpers/Artist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/helpers/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/helpers/Clock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/TowerCannon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/TowerCannon.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -179,11 +172,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TowerCannon.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TowerCannon.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/data/TowerCannon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="34" column="84" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+            <state relative-caret-position="397">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,11 +184,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Projectile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Projectile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/Projectile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="431">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,8 +229,8 @@
         <option value="$PROJECT_DIR$/src/data/Enemy.java" />
         <option value="$PROJECT_DIR$/src/data/Wave.java" />
         <option value="$PROJECT_DIR$/src/data/Boot.java" />
-        <option value="$PROJECT_DIR$/src/data/TowerCannon.java" />
         <option value="$PROJECT_DIR$/src/data/Projectile.java" />
+        <option value="$PROJECT_DIR$/src/data/TowerCannon.java" />
       </list>
     </option>
   </component>
@@ -391,7 +389,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545242328102</updated>
-      <workItem from="1545242329667" duration="27566000" />
+      <workItem from="1545242329667" duration="27807000" />
     </task>
     <task id="LOCAL-00001" summary="Syncing with Master">
       <created>1545416145967</created>
@@ -407,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545416343259</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Syncing with Master">
+      <created>1545430085698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545430085698</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27566000" />
+    <option name="totallyTimeSpent" value="27807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -659,20 +664,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/TowerCannon.java">
+    <entry file="file://$PROJECT_DIR$/src/data/Projectile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="34" column="84" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+        <state relative-caret-position="431">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/Projectile.java">
+    <entry file="file://$PROJECT_DIR$/src/data/TowerCannon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="397">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

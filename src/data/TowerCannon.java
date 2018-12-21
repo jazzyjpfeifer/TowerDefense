@@ -41,6 +41,7 @@ public class TowerCannon {
         if (timeSinceLastShot > firingSpeed)
         shoot();
 
+        //LESSON 30
         for (Projectile p: projectiles)
             p.update();
 
