@@ -8,7 +8,7 @@ public class TileGrid {
     private int tilesWide, tilesHigh;
 
     public TileGrid() {
-        map = new Tile[20][15];
+        map = new Tile[tilesWide][tilesHigh];
         for(int i = 0; i < map.length; i++) {
             for(int j = 0; j < map[i].length; j++) {
                 map[i][j] = new Tile(i * 64, j * 64, 64, 64, TileType.Grass);
@@ -44,7 +44,7 @@ public class TileGrid {
     }
 
     public Tile GetTile(int xPlace, int yPlace) {
-        if (xPlace < tilesWide && yPlace < tilesHigh)
+        if (xPlace < tilesWide && yPlace < tilesHigh && xPlace > -1 && yPlace > -1)
         return map[xPlace][yPlace];
         else
             return new Tile(0, 0, 0, 0, TileType.NULL);

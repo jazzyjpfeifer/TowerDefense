@@ -16,7 +16,7 @@ import static org.lwjgl.opengl.GL11.glMatrixMode;
 
 public class Artist {
 
-    public static final int WIDTH = 1088, HEIGHT = 768;
+    public static final int WIDTH = 1280, HEIGHT = 768;
 
     public static void BeginSession() {
         Display.setTitle("Game Project");

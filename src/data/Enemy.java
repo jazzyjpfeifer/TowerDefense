@@ -12,7 +12,7 @@ public class Enemy {
     private float speed, x, y;
     private Texture texture;
     private Tile startTile;
-    private boolean first = true;
+    private boolean first = true, alive = true;
     private TileGrid grid;
 
     private ArrayList<Checkpoint> checkpoints;
@@ -44,7 +44,7 @@ public class Enemy {
         else {
             if (CheckpointReached()) {
                 if(currentCheckpoint + 1 == checkpoints.size())
-                    System.out.println("Enemy as Reached the End");
+                    Die();
                 else
                 currentCheckpoint++;
             } else {
@@ -138,26 +138,14 @@ public class Enemy {
         } else {
             dir[0] = 2;
             dir[1] = 2;
-            System.out.println("No Direction Found");
         }
 
         return dir;
     }
 
-    /*
-        private boolean pathContinues() {
-        boolean answer = true;
-
-        Tile myTile = grid.GetTile((int) (x / 64), (int) (y / 64));
-        Tile nextTile = grid.GetTile((int) (x / 64) + 1, (int) (y / 64));
-
-        if(myTile.getType() != nextTile.getType())
-            answer = false;
-
-        return answer;
+    private void Die() {
+        alive = false;
     }
-     */
-
 
 
     public void Draw() {
@@ -238,5 +226,9 @@ public class Enemy {
 
     public TileGrid getTileGrid() {
         return grid;
+    }
+
+    public boolean isAlive() {
+        return alive;
     }
 }
